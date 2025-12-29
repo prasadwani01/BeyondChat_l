@@ -60,84 +60,68 @@ Follow these steps to run the project locally.
 ```bash
 git clone https://github.com/prasadwani01/BeyondChat_l.git
 cd BeyondChat_l
-2. Backend Setup (Laravel)
-Open a terminal in the backend folder:
-
-bash
-Copy code
+```
+### 2. Backend Setup (Laravel)
+Open a terminal in the `backend` folder:
+```bash
 cd backend
 composer install
 cp .env.example .env
-Action:
-Open .env and configure your database settings:
-
-env
-Copy code
-DB_DATABASE=your_database_name
-DB_USERNAME=your_username
-DB_PASSWORD=your_password
-Run migrations and start the server:
-
-bash
-Copy code
+```
+Run Migrations:
+```bash
 php artisan migrate
 php artisan serve
-(Keep this terminal running)
-
+```
 3. Worker Setup (Node.js)
 Open a new terminal in the worker folder:
-
-bash
-Copy code
+```bash
 cd worker
 npm install
-Action: Create a .env file in the worker folder:
-
-env
-Copy code
+```
+Action: Create a .env file in the worker folder and add your API key:
+```Code snippet
 GEMINI_API_KEY=your_google_gemini_api_key_here
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=
 DB_NAME=beyondchats_db
+```
 4. Frontend Setup (React)
 Open a new terminal in the frontend folder:
 
-bash
-Copy code
+```bash
 cd frontend
 npm install
 npm run dev
-📖 Usage
-Open the dashboard at http://localhost:5173
+```
+---
 
-You will see a list of articles.
+### **PART 3: Usage, Structure, & License**
+*(Paste this at the very end)*
 
-Click the ⚡ Scan for New Articles button.
+```markdown
+---
 
-Wait approximately 15–20 seconds while the background worker scrapes Google and generates AI-enhanced content.
+## 📖 Usage
+1.  Open the dashboard at `http://localhost:5173`.
+2.  [cite_start]You will see a list of articles[cite: 9, 24].
+3.  Click the **"⚡ Scan for New Articles"** button.
+4.  Wait approx. **15-20 seconds**. The background worker is scraping Google and generating AI content.
+5.  [cite_start]The dashboard will **automatically update** to show the enhanced content with citations[cite: 22, 25].
 
-The dashboard will automatically update with enhanced content and citations.
-
-📂 Project Structure
-text
-Copy code
+---
+```
+## 📂 Project Structure
+```text
 BeyondChats/
-├── backend/          # Laravel API (Controllers, Models, Migrations)
+├── backend/          # Laravel API (Controller, Models, Migrations)
 ├── frontend/         # React.js Application (Vite, Axios)
 ├── worker/           # Node.js Script (Scraper, Gemini AI)
 ├── screenshots/      # Images for documentation
-└── README.md         # Project Documentation
-🛡️ License
-This project is submitted strictly for evaluation purposes.
+└── README.md         # Documentation
 
-markdown
-Copy code
+```
 
-If you want, I can also:
-- Optimize it for **GitHub readability**
-- Add **badges** (Node, Laravel, React, MySQL)
-- Rewrite it to sound more **internship / resume-ready**
-- Add a **Features** or **Future Improvements** section
-
-Just tell me 👍
+### **Final Step:**
+After pasting all three parts, save the file. You are now ready to commit and push!
