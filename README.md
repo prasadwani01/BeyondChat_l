@@ -4,20 +4,12 @@ A full-stack web application that aggregates articles, enhances them using **Goo
 
 Built as part of the Full Stack Web Developer Intern assignment at BeyondChats.
 
----
-
-## 🎥 Live Demo
-> **[Click here to watch the Project Demo Video](YOUR_YOUTUBE_OR_LOOM_LINK_HERE)**  
-> *(Or access the live app here: [YOUR_NGROK_LINK_HERE])*
-
----
-
 ## 🏗️ System Architecture
 
 This project follows a decoupled **Microservices-inspired architecture** to handle heavy background processing without blocking the user interface.
 
-![Architecture Diagram](./screenshots/diagram.png)  
-*(See `ARCHITECTURE.md` for detailed data flow)*
+![Architecture Diagram](ARCHITECTURE_l.drawio.png)  
+*(See `ARCHITECTURE_l.drawio` for detailed data flow)*
 
 ### 🔄 The Workflow
 1. **User** clicks "Scan" on the React Dashboard.
