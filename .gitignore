@@ -1,0 +1,15 @@
+# Dependency directories
+node_modules/
+vendor/
+
+# Environment variables (Security risk to upload these!)
+.env
+.env.local
+
+# IDE files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
