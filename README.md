@@ -108,7 +108,6 @@ BeyondChats/
 ├── backend/          # Laravel API (Controller, Models, Migrations)
 ├── frontend/         # React.js Application (Vite, Axios)
 ├── worker/           # Node.js Script (Scraper, Gemini AI)
-├── screenshots/      # Images for documentation
 └── README.md         # Documentation
 
 ```
