@@ -100,7 +100,6 @@ npm run dev
 ### **PART 3: Usage, Structure, & License**
 *(Paste this at the very end)*
 
-```markdown
 ---
 
 ## 📖 Usage
@@ -111,7 +110,6 @@ npm run dev
 5.  [cite_start]The dashboard will **automatically update** to show the enhanced content with citations[cite: 22, 25].
 
 ---
-```
 ## 📂 Project Structure
 ```text
 BeyondChats/
